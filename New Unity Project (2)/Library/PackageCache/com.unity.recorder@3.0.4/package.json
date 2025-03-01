@@ -1,0 +1,62 @@
+{
+  "name": "com.unity.recorder",
+  "displayName": "Recorder",
+  "version": "3.0.4",
+  "unity": "2019.4",
+  "unityRelease": "1f1",
+  "dependencies": {
+    "com.unity.timeline": "1.0.0"
+  },
+  "description": "The Recorder allows you to capture and save data from the Unity Editor during Play mode: animations, videos, images, audio, arbitrary output variables (AOVs), and more.",
+  "keywords": [
+    "unity",
+    "recorder",
+    "recording",
+    "capture",
+    "video",
+    "animation",
+    "clip",
+    "images",
+    "AOV",
+    "render",
+    "pass",
+    "layer"
+  ],
+  "relatedPackages": {
+    "com.unity.recorder.tests": "3.0.4"
+  },
+  "_upm": {
+    "changelog": "### Changed\n- Prevent Unity from throwing an exception when using the file explorer to change the output file path in a recorder preset.\n- Disallow `ActiveCamera` from being selected with SRP-based projects as a camera source.\n- Display an error message and prevent Recorder from starting if MainCamera is selected while the main camera is missing from the project.\n- Better handle error messages when using a Tagged Camera while the tag is missing from the project or not assigned to the camera.\n\n### Fixed\n- Ensure that camera's rotation is retained when recording monoscopic 360 views.\n- Ensure an alpha channel is added when the Editor targets a mobile platform."
+  },
+  "upmCi": {
+    "footprint": "f528a67a783618bb1d186559abc2aef4e9e6bbd5"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.recorder@3.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.recorder.git",
+    "type": "git",
+    "revision": "4c9f2aee426214deb37c7d9defbdbed235e3f3c1"
+  },
+  "samples": [
+    {
+      "displayName": "Screenshot Capture Sample",
+      "description": "This example shows how to set up a recording session via script.",
+      "path": "Samples~/CaptureScreenShot"
+    },
+    {
+      "displayName": "Movie Recorder Sample",
+      "description": "This example shows how to set up a movie recording session via script.",
+      "path": "Samples~/MovieRecorder"
+    },
+    {
+      "displayName": "Multiple Recordings Sample",
+      "description": "This example shows how to set up a multiple recording session via script.",
+      "path": "Samples~/MultipleRecordings"
+    },
+    {
+      "displayName": "Recorder Editor Sample",
+      "description": "This example shows how to add \"Start Recording\" and \"Stop Recording\" menu items .",
+      "path": "Samples~/RecorderEditor"
+    }
+  ]
+}
