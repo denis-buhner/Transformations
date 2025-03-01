@@ -348,10 +348,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/scripts/CapsuleMovement.cs"
 "Assets/scripts/CubeDynamicMovement.cs"
-"Assets/scripts/CubeMovement.cs"
-"Assets/scripts/SphereMovement.cs"
+"Assets/scripts/Mover.cs"
+"Assets/scripts/Rotator.cs"
+"Assets/scripts/Scaler.cs"
 -langversion:9.0
 
 /deterministic
